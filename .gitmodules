@@ -6,7 +6,8 @@
 	url = https://github.com/harfbuzz/harfbuzz
 [submodule "src/c/ttfautohint"]
 	path = src/c/ttfautohint
-	url = http://repo.or.cz/ttfautohint.git
+	url = https://github.com/fonttools/ttfautohint-mirror
+	branch = remove-aux
 [submodule "ci/multibuild"]
 	path = ci/multibuild
 	url = https://github.com/matthew-brett/multibuild
