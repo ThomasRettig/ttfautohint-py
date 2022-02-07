@@ -42,6 +42,7 @@ jobs:
           release: false
           install: >-
             autotools
+            git
             mingw-w64-i686-ragel
             mingw-w64-x86_64-ragel
       - uses: actions/setup-python@v2
